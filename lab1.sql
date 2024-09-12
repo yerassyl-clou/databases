@@ -43,7 +43,3 @@ drop table tasks;
 
 
 drop database lab1
-
-
-
-
