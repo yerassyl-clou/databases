@@ -4,42 +4,55 @@ create database lab3;
 
 
 --3--
-select lastname from employees;
+select lastname
+from employees;
 
 
 
 --4--
-select distinct lastname from employees;
+select distinct lastname
+from employees;
 
 
 
 --5--
-select * from employees where lastname='Smith';
+select *
+from employees
+where lastname='Smith';
 
 
 
 --6--
-select * from employees where lastname='Smith' or lastname='Doe';
+select *
+from employees
+where lastname='Smith' or lastname='Doe';
 
 
 
 --7--
-select * from employees where department=14;
+select *
+from employees
+where department=14;
 
 
 
 --8--
-select * from employees where department=14 or department=77;
+select *
+from employees
+where department=14 or department=77;
 
 
 
 --9--
-select sum(budget) from departments;
+select sum(budget)
+from departments;
 
 
 
 --10--
-select department, count(department) from employees group by department;
+select department, count(department)
+from employees
+group by department;
 
 
 
