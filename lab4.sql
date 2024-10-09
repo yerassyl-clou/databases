@@ -101,4 +101,5 @@ delete from boxes
 where warehouse in (
     select code from Warehouses
     where location = 'New York'
-    );
+    )
+returning *;
